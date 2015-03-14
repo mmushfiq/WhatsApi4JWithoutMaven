@@ -2276,3 +2276,53 @@
 2015-02-25 21:23:22,130 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - Checking received id ([] against message-1424884997-6
 2015-02-25 21:23:22,130 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - received id did NOT match
 2015-02-25 21:23:22,130 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - waitForServer done waiting for message-1424884997-6
+2015-03-14 21:31:16,542 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - ID: %0e%f7%b2%caj%5c%b2%b7%d8%a2%b3%e8%b0r%ce%e5dq%21%8e
+2015-03-14 21:31:16,799 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - sendData: 5741010200001cf80501c8aba5fc144e6f6b69613330322d322e31322e36312d343433
+2015-03-14 21:31:16,800 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - tx: <stream:features>
+<receipt_acks></receipt_acks><status></status>
+</stream:features>
+2015-03-14 21:31:16,801 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - sendData: 00000bf802bbf802f8019cf801b9
+2015-03-14 21:31:16,802 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - tx: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="WAUTH-1" user="994707351114"></auth>
+2015-03-14 21:31:16,802 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - sendData: 000016f80710e8cf6decdafc0c393934373037333531313134
+2015-03-14 21:31:17,195 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - rx  <start from="s.whatsapp.net"></start>
+2015-03-14 21:31:17,196 [main] INFO  net.sumppen.whatsapi4j.WhatsApi  - Unknown/Unused tag stream:features
+2015-03-14 21:31:17,197 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - rx  <stream:features>
+<receipt_acks></receipt_acks><w:profile:picture type="all"></w:profile:picture>
+</stream:features>
+2015-03-14 21:31:17,197 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - rx  <challenge xmlns="urn:ietf:params:xml:ns:xmpp-sasl">4bc9e34a2dfa3593e64922d2ef2d2160ae839d94</challenge>
+2015-03-14 21:31:17,197 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - processChallenge: 20
+2015-03-14 21:31:18,209 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - array: 3939343730373335313131344bc9e34a2dfa3593e64922d2ef2d2160ae839d9431343236333534323738
+2015-03-14 21:31:18,209 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - response: 5f2f57aa9600f5a681d29692a70f8fbd030920ba8cab7b218656ff24afe639a48986e4895fd6b20e7820456f0fc2
+2015-03-14 21:31:18,210 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - tx: <response xmlns="urn:ietf:params:xml:ns:xmpp-sasl">5f2f57aa9600f5a681d29692a70f8fbd030920ba8cab7b218656ff24afe639a48986e4895fd6b20e7820456f0fc2</response>
+2015-03-14 21:31:18,211 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - sendData: 000035f804a7e8cffc2e5f2f57aa9600f5a681d29692a70f8fbd030920ba8cab7b218656ff24afe639a48986e4895fd6b20e7820456f0fc2
+2015-03-14 21:31:19,410 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - rx  <failure xmlns="urn:ietf:params:xml:ns:xmpp-sasl">
+<not-authorized></not-authorized>
+</failure>
+2015-03-14 21:31:19,410 [main] ERROR net.sumppen.whatsapi4j.WhatsApi  - Failure
+2015-03-14 21:31:20,411 [main] ERROR net.sumppen.whatsapi4j.WhatsApi  - socket EOF, closing socket...
+2015-03-14 21:31:20,412 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - tx: <presence type="available" name="Mr.Mammadov"></presence>
+2015-03-14 21:31:59,114 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - ID: %25%f6p%a9%0b%05p%3d%0d%0c5%b6a%a6u%984%a4*%08
+2015-03-14 21:31:59,337 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - sendData: 5741010200001cf80501c8aba5fc144e6f6b69613330322d322e31322e36312d343433
+2015-03-14 21:31:59,338 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - tx: <stream:features>
+<receipt_acks></receipt_acks><status></status>
+</stream:features>
+2015-03-14 21:31:59,342 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - sendData: 00000bf802bbf802f8019cf801b9
+2015-03-14 21:31:59,343 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - tx: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="WAUTH-1" user="994503732410"></auth>
+2015-03-14 21:31:59,343 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - sendData: 000016f80710e8cf6decdafc0c393934353033373332343130
+2015-03-14 21:31:59,747 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - rx  <start from="s.whatsapp.net"></start>
+2015-03-14 21:31:59,749 [main] INFO  net.sumppen.whatsapi4j.WhatsApi  - Unknown/Unused tag stream:features
+2015-03-14 21:31:59,749 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - rx  <stream:features>
+<receipt_acks></receipt_acks><w:profile:picture type="all"></w:profile:picture>
+</stream:features>
+2015-03-14 21:31:59,750 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - rx  <challenge xmlns="urn:ietf:params:xml:ns:xmpp-sasl">d954528b58acc140c1fb6f15acca4389ae5428e1</challenge>
+2015-03-14 21:31:59,750 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - processChallenge: 20
+2015-03-14 21:31:59,976 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - array: 393934353033373332343130d954528b58acc140c1fb6f15acca4389ae5428e131343236333534333139
+2015-03-14 21:31:59,976 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - response: b6ece0d373f7fe1c12c2e95313fd75c01569e9951c2d6c8eaa6626369c1850712229246a21682b36f05de9d9b080
+2015-03-14 21:31:59,976 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - tx: <response xmlns="urn:ietf:params:xml:ns:xmpp-sasl">b6ece0d373f7fe1c12c2e95313fd75c01569e9951c2d6c8eaa6626369c1850712229246a21682b36f05de9d9b080</response>
+2015-03-14 21:31:59,976 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - sendData: 000035f804a7e8cffc2eb6ece0d373f7fe1c12c2e95313fd75c01569e9951c2d6c8eaa6626369c1850712229246a21682b36f05de9d9b080
+2015-03-14 21:32:04,181 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - rx  <failure xmlns="urn:ietf:params:xml:ns:xmpp-sasl">
+<not-authorized></not-authorized>
+</failure>
+2015-03-14 21:32:04,181 [main] ERROR net.sumppen.whatsapi4j.WhatsApi  - Failure
+2015-03-14 21:32:05,177 [main] ERROR net.sumppen.whatsapi4j.WhatsApi  - socket EOF, closing socket...
+2015-03-14 21:32:05,178 [main] DEBUG net.sumppen.whatsapi4j.WhatsApi  - tx: <presence type="available" name="Mr.Mammadov"></presence>
