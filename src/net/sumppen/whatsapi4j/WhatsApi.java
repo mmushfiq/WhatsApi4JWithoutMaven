@@ -393,21 +393,8 @@ public class WhatsApi {
 	 * Connect (create a socket) to the WhatsApp network.
 	 */
 	public boolean connect() throws UnknownHostException, IOException {
-//            ExampleApplication.usingProxyForConnect();
-            
-		socket = new Socket(WHATSAPP_HOST, PORT);
-                
-                //-----------------
-//                SocketAddress addr = new InetSocketAddress("proxy", 3128);
-//                Proxy proxy = new Proxy(Proxy.Type.SOCKS, addr);
-//                socket = new Socket(proxy);
-//                InetSocketAddress dest = new InetSocketAddress(WHATSAPP_HOST, PORT);
-//                socket.connect(dest);
-                //-------------------------------------------------------------------------------
-                
-                
-                
-                System.out.println("socket yaradilmasina gelib chatdi..");
+
+		socket = new Socket(WHATSAPP_HOST, PORT);    
                 
 		if(socket.isConnected()) {
 			socket.setSoTimeout(TIMEOUT_SEC*1000);
